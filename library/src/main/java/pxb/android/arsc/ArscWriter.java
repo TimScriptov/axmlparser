@@ -22,7 +22,7 @@ public class ArscWriter implements ResConst {
     private final Map<String, StringItem> strTable = new TreeMap<String, StringItem>();
     private final StringItems strTable0 = new StringItems();
 
-    private ArscWriter(List<Pkg> pkgs) {
+    public ArscWriter(List<Pkg> pkgs) {
         this.pkgs = pkgs;
     }
 

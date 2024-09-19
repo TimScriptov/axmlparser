@@ -66,7 +66,7 @@ public class ArscParser implements ResConst {
     private final List<Pkg> pkgs = new ArrayList<>();
     private String[] strings;
 
-    ArscParser(byte[] b) {
+    public ArscParser(byte[] b) {
         this.in = ByteBuffer.wrap(b).order(ByteOrder.LITTLE_ENDIAN);
     }
 

@@ -12,7 +12,7 @@ import java.util.List;
  * dump an arsc file
  */
 public class ArscDumper {
-    private static void dump(@NotNull List<Pkg> pkgs) {
+    public static void dump(@NotNull List<Pkg> pkgs) {
         for (int x = 0; x < pkgs.size(); x++) {
             Pkg pkg = pkgs.get(x);
 

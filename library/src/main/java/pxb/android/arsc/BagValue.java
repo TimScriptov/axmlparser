@@ -9,7 +9,7 @@ public class BagValue {
     public final int parent;
     public List<Map.Entry<Integer, Value>> map = new ArrayList<Entry<Integer, Value>>();
 
-    BagValue(int parent) {
+    public BagValue(int parent) {
         this.parent = parent;
     }
 
